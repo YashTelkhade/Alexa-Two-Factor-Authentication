@@ -1,0 +1,101 @@
+{
+    "SKILL_NAME": "the Dabble Lab Twilio Example Template",
+    "WELCOME": [
+      "Welcome to {}. To start sending messages, you need to save the receivers phone number as a contact. Please tell me a phone number that you would like to save."
+    ],
+    "WELCOME_REPROMPT": [
+      "Please tell me a phone number that you would like to save."
+    ],
+    "WELCOME_BACK": [
+      "Welcome to {}. Would you like to save a new contact or send a text message?"
+    ],
+    "WELCOME_BACK_REPROMPT": [
+      "Would you like to save a new contact or send a text message?"
+    ],
+    "PHONE_NUMBER_CONFIRMED": [
+      "Okay. What is the name of the contact?",
+      "Okay. What should I name this contact?",
+      "Okay. By what name should I save this contact?"
+    ],
+    "PHONE_NUMBER_CONFIRMED_REPROMPT": [
+      "What is the name of the contact?"
+    ],
+    "PHONE_NUMBER_UNCONFIRMED": [
+      "I couldn't understand the phone number. Can you please repeat it?"
+    ],
+    "PHONE_NUMBER_UNCONFIRMED_REPROMPT": [
+      "Please repeat the phone number that you wish to save."
+    ],
+    "CONTACT_SAVED": [
+      "Thanks. I have successfully saved the contact and you can now send messages to it. What would you like to do? Save another contact or send a new message?"
+    ],
+    "CONTACT_SAVED_REPROMPT": [
+      "Would you like to save another contact or send a new message?"
+    ],
+    "CONTACT_NOT_SAVED": [
+      "Sorry, I couldn't understand the name. Can you please repeat that?"
+    ],
+    "CONTACT_NOT_SAVED_REPROMPT": [
+      "Please repeat the name of the contact."
+    ],
+    "SAVE_NEW_CONTACT": [
+      "Sure. Please tell me the phone number that you want to save."
+    ],
+    "SAVE_NEW_CONTACT_REPROMPT": [
+      "Please tell me the phone number that you want to save."
+    ],
+    "SEND_TEXT_MESSAGE": [
+      "Okay. Please tell me the message."
+    ],
+    "SEND_TEXT_MESSAGE_REPROMPT": [
+      "What is your message?"
+    ],
+    "MESSAGE_RECEIVED": [
+      "Who would you like to send this message to?"
+    ],
+    "MESSAGE_RECEIVED_REPROMPT": [
+      "Please specify a name from your contact list to send the message."
+    ],
+    "ERROR_WITH_MESSAGE": [
+      "Sorry, I couldn't understand the message. Can you please repeat it?"
+    ],
+    "ERROR_WITH_MESSAGE_REPROMPT": [
+      "Can you please repeat the message?"
+    ],
+    "MESSAGE_SENT": [
+      "I've successfully sent your message. What would you like to do now?"
+    ],
+    "MESSAGE_SENT_REPROMPT": [
+      "What would you like to do now?"
+    ],
+    "CONTACT_NOT_FOUND": [
+      "Sorry, I could not find any contact by that name. Please provide a valid contact name."
+    ],
+    "CONTACT_NOT_FOUND_REPROMPT": [
+      "Please provide a valid contact name."
+    ],
+    "MESSAGE_NOT_SENT": [
+      "Sorry, there was an error while trying to send the message. Please specify the contact name again to continue."
+    ],
+    "MESSAGE_NOT_SENT_REPROMPT": [
+      "Please specify the contact name again to continue."
+    ],
+    "HELP": [
+      "This is the help prompt."
+    ],
+    "HELP_REPROMPT": [
+      "This is the help reprompt."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. Can you please repeat?"
+    ],
+    "FALLBACK_REPROMPT": [
+      "Can you please repeat?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good bye",
+      "Okay. I'll be here if you need me."
+    ],
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

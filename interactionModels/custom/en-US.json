@@ -1,0 +1,154 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "payment skill",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "MyMessageIsIntent",
+          "slots": [
+            {
+              "name": "message_text",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "pay him {message_text}",
+            "send him {message_text}"
+          ]
+        },
+        {
+          "name": "ChooseContactIntent",
+          "slots": [
+            {
+              "name": "recipient_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "send that message to {recipient_name}",
+            "send that to {recipient_name}",
+            "send message to {recipient_name}",
+            "to {recipient_name}",
+            "send the message to {recipient_name}",
+            "send it to {recipient_name}"
+          ]
+        },
+        {
+          "name": "SaveNewContactIntent",
+          "slots": [],
+          "samples": [
+            "send money to another contact",
+            "send money to another one",
+            "zelle another one",
+            "send to another contact",
+            "send to another one",
+            "send money to new contact",
+            "add another phone number",
+            "add new phone number",
+            "I want to add a new contact",
+            "add new contact",
+            "add a new contact",
+            "save new contact"
+          ]
+        },
+        {
+          "name": "SendTextMessageIntent",
+          "slots": [],
+          "samples": [
+            "send payment to exisiting one",
+            "send payment",
+            "send a new payment",
+            "I want to send a payment",
+            "I want to send payment"
+          ]
+        },
+        {
+          "name": "PhoneNumberIsIntent",
+          "slots": [
+            {
+              "name": "phone_number",
+              "type": "AMAZON.PhoneNumber"
+            }
+          ],
+          "samples": [
+            "number is {phone_number}",
+            "{phone_number}",
+            "the contact number is {phone_number}",
+            "the number is {phone_number}",
+            "the phone number is {phone_number}"
+          ]
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "contact_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "{contact_name}",
+            "it\u0027s {contact_name}",
+            "save the contact by the name {contact_name}",
+            "the contact name is {contact_name}",
+            "it is {contact_name}",
+            "name is {contact_name}",
+            "the name of the contact is {contact_name}",
+            "save it by the name {contact_name}",
+            "her name is {contact_name}",
+            "his name is {contact_name}",
+            "the name is {contact_name}"
+          ]
+        },
+        {
+          "name": "TheOTPIntent",
+          "slots": [
+            {
+              "name": "otp",
+              "type": "AMAZON.PhoneNumber"
+            }
+          ],
+          "samples": [
+            "the one time password is {otp}",
+            "the otp is {otp}"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "7"
+}
