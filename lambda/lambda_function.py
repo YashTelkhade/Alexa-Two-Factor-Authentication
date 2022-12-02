@@ -14,7 +14,7 @@ import boto3
 
 # Establish connection with Twilio API
 account_sid = 'AC6335774d10ef28f4cef3f82f37d2a209' 
-auth_token = '2ab96304d28f42f25853833c44fc7fcc'
+auth_token = '03ec1eae1449b1b6c80eb7831242d9c1'
 messaging_service_sid = 'MG351c4fa1a6692ca87325906d1fd0c529'
 client = Client(account_sid, auth_token)
 
